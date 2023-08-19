@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 import './style.css'
 
 function header() {
@@ -15,7 +15,7 @@ function header() {
           <a href=""><button>Receitas Doces</button></a>
           <a href=""><button>Receitas Bebidas</button></a>
           </div>
-        <a href="/" className='login'><img src="/" alt="" />login / cadastra</a>
+        <a href="/" className='login'><img src="/" alt="" />login / cadastrar</a>
      </header>
     </>
   )

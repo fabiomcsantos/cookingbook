@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500,300,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&family=Poppins:wght@100&display=swap');
 
 #root {
   width: 100%;
@@ -21,9 +21,7 @@
 .logo {
   width: 106px;
   height: 149px;
-  margin-left: 8.5vh;
-
-
+  margin-left: 10vh;
 }
 
 .conteudo{

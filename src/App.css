@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500,300,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&family=Poppins:wght@100&display=swap');
 
 #root {
   width: 100%;
@@ -7,83 +8,43 @@
   padding: 0;
   --header-color: #BBCDB5;
   --verde-escuro: #586553;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
-.header {
+.footer {
   background-color: var(--header-color);
-  height: 180px;
-  box-shadow:0px 4px 4px #696767;
-  display:flex;
+  height: 150px;
+  box-shadow:0px -4px 4px #696767;
+  display: flex;
   align-items: center;
 }
 
-.logo {
-  width: 106px;
-  height: 149px;
-  margin-left: 8.5vh;
-
-
-}
-
 .conteudo{
-  text-align: center;
-  margin-left: 34vh;
+  width: 1114px;
+  margin-left: 10vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+
 }
 
-input{
-  width: 482px;
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--verde-escuro);
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--verde-escuro);
+  height: 81px;
+}
+
+.social{
+  width: 32px;
   height: 32px;
-  border: solid 1px var(--verde-escuro);
-  box-shadow: inset 0 4px 4px #809678;
-  border-radius: 10px;
-  background-color: var(--header-color);
-  font-family: 'Montserrat', sans-serif;
-  color: var(--verde-escuro);
-  font-weight:lighter;
-  font-size: 14px;
-  margin-top: 46px;
-  margin-bottom: 55px;
-}
-
-
-button{
-  width: 150px;
-  height: 33px;
-  border-radius: 5px;
-  background-color: #AC5050;
-  border: none;
-  box-shadow:0px 4px 4px #696767;
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  font-weight:lighter;
-  font-size: 14px;
-  margin: 0px 8px 14px 8px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-button:hover{
-  width: 150px;
-  height: 33px;
-  border-radius: 5px;
-  background-color: var(--verde-escuro);
-  border: none;
-  box-shadow:0px 4px 4px #696767;
-  font-family: 'Montserrat', sans-serif;
-  color: #fff;
-  font-weight:lighter;
-  font-size: 14px;
-  margin: 0px 8px 14px 8px;
-  cursor:pointer;
-}
-.login{
-  margin-top: 120px;
-  margin-left: 55vh;
-  color: var(--verde-escuro);
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  font-weight: 300;
-  text-decoration: none;
+  margin-left: 45vh;
 }
