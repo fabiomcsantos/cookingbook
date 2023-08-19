@@ -6,16 +6,16 @@ function App() {
   return (
     <>
      <header className='header'>
-        <img className='logo' src="https://static.vecteezy.com/system/resources/previews/008/863/243/original/cooking-vegetables-flat-design-healthy-food-logo-free-vector.jpg" alt="logo cooking book" />
+        <img className='logo' src="./public/images/logo_cooking_sombra.png" />
         <div className='conteudo'>  
           <form name='search'>
-            <input type="text" name='pesquisar' value= "pesquisar"/>
+            <input type='search' name='pesquisar' value="" placeholder='pesquisar'/>
           </form>
           <a href=""><button>Receitas Salgadas</button></a>
           <a href=""><button>Receitas Doces</button></a>
           <a href=""><button>Receitas Bebidas</button></a>
           </div>
-        <a href=""><img src="" alt="icone login e cadastro" />login / cadastra</a>
+        <a href="/" className='login'><img src="/" alt="" />login / cadastra</a>
      </header>
     </>
   )
