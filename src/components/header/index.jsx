@@ -1,25 +1,27 @@
 import React from 'react'
-import './style.css'
+import styles from '../header/header.modules.css'
 
 function header() {
 
   return (
-    <>
-     <header className='header'>
-        <img className='logo' src="./public/images/logo_cooking_sombra.png" />
-        <div className='conteudo'>  
-          <form name='search'>
-            <input type='search' name='pesquisar' value="" placeholder='pesquisar'/>
-          </form>
-          <a href=""><button>Receitas Salgadas</button></a>
-          <a href=""><button>Receitas Doces</button></a>
-          <a href=""><button>Receitas Bebidas</button></a>
-          </div>
-        <a href="/" className='login'><img src="/" alt="" />login / cadastrar</a>
-     </header>
-    </>
-  )
-}
+  <div className={styles.Root}>
+    <header className={styles.Header}>
+    <a href="#" ><img className={styles.Logo} src="./public/images/logo_cooking_sombra.png" /> </a>
+      <div className={styles.Conteudo}>  
+        <form className={styles.Form} name='search'>
+          <input className={styles.Input} type='search' name='pesquisar' value="" placeholder='pesquisar'/>
+        </form>
+        <a href="#"><button className={styles.Button}>Receitas Salgadas</button></a>
+        <a href="#"><button className={styles.Button}>Receitas Doces</button></a>
+        <a href="#"><button className={styles.Button}>Receitas Bebidas</button></a>
+      </div>
+      <div className={styles.Links}>
+        <a href="#" className={styles.Login}><img className={styles.Icons} src="./public/icons/user.png" alt="" />login / cadastrar</a>
+      </div>
+    </header>
+  </div>
+   )
+  }
 
 
 export default header

@@ -1,23 +1,28 @@
 import React from 'react'
-import './App.css'
+import styles from './App.module.css'
+
 
 function App() {
 
   return (
-    <>
-     <footer className='footer'>
-        <div className='conteudo'>
-          <h1>Quem Somos</h1>
-          <p>Somos uma equipe que está trabalhando para trazer até você um site de receitas único. Nosso objetivo é oferecer uma variedade de receitas deliciosas e inspiradoras para atender todos os gostos e níveis de habilidade na cozinha. Queremos simplificar a arte da culinária, fornecendo instruções passo a passo e dicas práticas,  esteja você começando ou mestre na cozinha, nosso site será um recurso útil e inspirador para criar pratos incrivéis e memoráveis. Fique atento para atualizações e lançamento em breve!</p>
-        </div>
-        <div className='contatos'>
-          <a href="" className='social'><img src="" alt="" />inst</a>
-          <a href="" className='social'><img src="" alt="" />email</a>
-        </div>            
-     </footer>
-    </>
-  )
+    <div className={styles.Root}>
+    <header className={styles.Header}>
+    <a href="#" ><img className={styles.Logo} src="./public/images/logo_cooking_sombra.png" /> </a>
+       <div className={styles.Conteudo}>  
+         <form className={styles.Form} name='search'>
+           <input className={styles.Input} type='search' name='pesquisar' value="" placeholder='pesquisar'/>
+         </form>
+         <a href="#"><button className={styles.Button}>Receitas Salgadas</button></a>
+         <a href="#"><button className={styles.Button}>Receitas Doces</button></a>
+         <a href="#"><button className={styles.Button}>Receitas Bebidas</button></a>
+         </div>
+      <div className={styles.Links}>
+        <a href="#" className={styles.Login}><img className={styles.Icons} src="./public/icons/user.png" alt="" />login / cadastrar</a>
+      </div>
+    </header>
+   </div>
+ )
 }
 
-
 export default App
+

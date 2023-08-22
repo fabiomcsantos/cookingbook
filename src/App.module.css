@@ -1,37 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&family=Poppins:wght@100&display=swap');
 
-#root {
-  width: 100%;
+html{
+  font-size: 62.5%;
+}
+
+.Root {
+  width: 144rem;
   margin: 0;
   padding: 0;
   --header-color: #BBCDB5;
   --verde-escuro: #586553;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
-.header {
+.Header {
   background-color: var(--header-color);
-  height: 180px;
+  height: 18rem;
   box-shadow:0px 4px 4px #696767;
   display:flex;
   align-items: center;
 }
 
-.logo {
-  width: 106px;
-  height: 149px;
-  margin-left: 10vh;
+.Logo {
+  width: 10.6rem;
+  height: 14.9rem;
+  margin-left: 9rem;
 }
 
-.conteudo{
+.Conteudo{
   text-align: center;
-  margin-left: 34vh;
+  margin-left: 2rem;
+  margin-left: 26rem;
 }
 
-input{
-  width: 482px;
-  height: 32px;
+.Input{
+  width: 48rem;
+  height: 3.2rem;
   border: solid 1px var(--verde-escuro);
   box-shadow: inset 0 4px 4px #809678;
   border-radius: 10px;
@@ -39,15 +44,14 @@ input{
   font-family: 'Montserrat', sans-serif;
   color: var(--verde-escuro);
   font-weight:lighter;
-  font-size: 14px;
-  margin-top: 46px;
-  margin-bottom: 55px;
+  font-size: 1.4rem;
+  margin-top: 4.6rem;
+  margin-bottom: 5.5rem;
 }
 
-
-button{
-  width: 150px;
-  height: 33px;
+.Button{
+  width: 15rem;
+  height: 3.3rem;
   border-radius: 5px;
   background-color: #AC5050;
   border: none;
@@ -55,15 +59,15 @@ button{
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-weight:lighter;
-  font-size: 14px;
+  font-size: 1.4rem;
   margin: 0px 8px 14px 8px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
-button:hover{
-  width: 150px;
-  height: 33px;
+.Button:hover{
+  width: 15rem;
+  height: 3.3rem;
   border-radius: 5px;
   background-color: var(--verde-escuro);
   border: none;
@@ -71,16 +75,29 @@ button:hover{
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-weight:lighter;
-  font-size: 14px;
+  font-size: 1.4rem;
   margin: 0px 8px 14px 8px;
   cursor:pointer;
 }
-.login{
-  margin-top: 120px;
-  margin-left: 55vh;
+
+.Links{
+  margin-top: 12rem;
+}
+
+.Login{
+  display: flex;
+  align-items:center;
+  margin-left: 20rem;
   color: var(--verde-escuro);
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 300;
   text-decoration: none;
+}
+
+
+.Icons{
+  width: 2.4rem;
+  height: 2.4rem;  
+  margin-right: 1rem;
 }
