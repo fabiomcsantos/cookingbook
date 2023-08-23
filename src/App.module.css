@@ -13,82 +13,71 @@ html{
   --back-color: #F5F5F5;
   font-family: 'Montserrat', sans-serif;
   background-color: var(--back-color);
+}
 
+.Conteudo{
+  width: 60.8rem;
+  height: 16rem;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px  #696767;
+  display: flex;
+  align-items: center;
 }
 
 .Img{
-  width: 43.2rem;
-  height: 34rem;
+  width: 21.3rem;
+  height: 12.8rem;
   border-radius: 10px;
-  margin-bottom: 8rem;
-  box-shadow: 0px 4px 4px  #696767;
+  margin: 1.6rem;
 }
 
-
-.foto{
-  width: 43.3rem;
-  height: 32rem;
-  border-radius: 10px;
-  box-shadow:0px 4px 4px #696767;
-}
-
-.conteudo{
+.Descricao{
+  margin: 0 1.6rem 1.6rem 1.6rem;
+  text-align: center;
+  width: 33rem;
+  height: 12.8rem;
   display: flex;
-  justify-self:left;
-  align-self: end;
-  margin: 1rem;
-}
-
-.receita{
-  width: 72rem;
-  height: 32rem;
-  margin-left: 15rem;
-  background-color:#D9D9D9;
-  border-radius: 10px;
-  color: #484747;
-  font-family: 'Montserrat', sans-serif;
-  box-shadow:0px 4px 4px #696767;
-  padding: 2rem;
-  line-height: 25px;
-}
-
-.preparo{
-  width: 72rem;
-  height: 40rem;
-  margin-left: 15rem;
-  background-color:#D9D9D9;
-  border-radius: 10px;
-  margin-top: 8rem;
-  color: #484747;
-  padding: 2rem;
-  line-height: 25px;
-  font-family: 'Montserrat', sans-serif;
-  box-shadow:0px 4px 4px #696767;
-}
-
-.geral{
-  padding: 10rem;
-  background-color: var(--back-color);
-}
-
-.TextUl{
-  list-style-position: inside;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400; 
-  text-align: left;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
 }
 
 .TitleP{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400; 
-  text-align: left;
+  font-size: 2rem;
+  color: #484747;
 }
 
-.TitleH2{
-  font-family: 'Montserrat', sans-serif;
+.Information{
+  display: flex;
+  
+}
+
+.Time{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--header-color);
+  width: 12.1rem;
+  height: 3.9rem;
+  border-radius: 5px;
+  padding: 6px 8px 6px 8px ;
+  
+}
+
+.IconTime{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 8px;
+}
+
+.TextTime{
+  color: var(--verde-escuro);
   font-size: 2rem;
-  font-weight: 500; 
-  text-align: center;
+  margin-right: 8px;
+}
+
+.IconHeart{
+  width: 3.2rem;
+  height: 3.2rem;
 }
