@@ -16,6 +16,24 @@ html{
 
 }
 
+.Voltar{
+  padding: 5rem 10rem 5rem 11.6rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Voltar a {
+  color: #AC5050;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.Seta{
+  width: 2.4rem;
+  height: 2.4rem;
+  vertical-align:bottom;
+}
+
 .CaixaImg{
 margin-top: 8rem;
 }
@@ -72,7 +90,7 @@ margin-top: 8rem;
 }
 
 .geral{
-  padding: 10rem;
+  padding: 0 10rem 10rem 10rem;
   background-color: var(--back-color);
 }
 

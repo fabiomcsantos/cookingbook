@@ -5,22 +5,14 @@ import styles from './App.module.css'
 function App() {
 
   return (
-  <div className={styles.Root}>
-    <div className={styles.Conteudo}>
-      <img className={styles.Img} src="./public/images/ossobuco.jpeg" alt="foto alimento" />
-      <div className={styles.Descricao}>
-        <p className={styles.TitleP}>Bolo de cenoura com cobertura chocolate</p>
-        <div className={styles.Informations}>
-          <div className={styles.Time}>
-            <img className={styles.IconTime} src="./public/icons/relogio.png" alt="" />
-            <p className={styles.TextTime}>45min.</p>
-          </div>
-          <img className={styles.IconHeart} src="./public/icons/gostar.png" alt="" />
-        </div>
-      </div>
+    <div className={styles.Root}>
+    <div className={styles.Banner}><img className={styles.Rotativo} src="./public/images/banner1.png" alt="" /></div>
+    <div className={styles.imagens}>
+      <div className={styles.Img1}><img className={styles.Img} src="./public/images/salgado.png" alt="" /><button className={styles.Botao}>Práticas</button></div>
+      <div className={styles.Img2}><img className={styles.Img} src="./public/images/doces.png" alt="" /><button className={styles.Botao}>Quentes</button></div>
+      <div className={styles.Img3}><img className={styles.Img} src="./public/images/bebidas.png" alt="" /><button className={styles.Botao}>Frias</button></div>
     </div>
   </div>
-   
    
  )
 }

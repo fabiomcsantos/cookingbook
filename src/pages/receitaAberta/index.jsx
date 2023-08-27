@@ -5,7 +5,8 @@ import styles from './raberta.modules.css'
 function RAberta() {
 
   return (
-    <div className={styles.Root}>
+<div className={styles.Root}>
+<div className={styles.Voltar}><a href="#"><img className={styles.Seta} src="./public/icons/seta-esquerda.png" alt="" /> Voltar</a></div>
    
    <div className={styles.geral}>
       
