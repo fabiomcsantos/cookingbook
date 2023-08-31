@@ -28,7 +28,7 @@ function App() {
     <div className={styles.Root}>
     <div className={styles.Banner}>
       <motion.div ref={rotativo} className={styles.Rotativo} whileTap={{cursor: "grabbing"}}>
-        <motion.div className={styles.inner} drag="x" dragConstraints={{ right:0, left: - width}}>
+        <motion.div className={styles.inner} drag="x" dragConstraints={{ right:0, left: -width}}>
 
           {images.map(image => (
             <motion.div className={styles.item} key={image}>

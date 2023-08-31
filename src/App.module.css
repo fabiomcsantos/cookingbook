@@ -18,15 +18,31 @@ html{
 
 .Rotativo{
   position: absolute;
+  
+}
+
+.inner{
+  display: flex;
+}
+
+.item{
+  width: auto;
+  height: auto;
 
 }
 
+.item img{
+  pointer-events: none;
+}
+
 .Banner{
-  width: 144rem;
+  max-width: 144rem;
   height: 39.7rem;
   box-shadow: 0px 4px 4px  #696767;
   margin-bottom: 6rem;
-  
+  cursor: grab;
+  overflow: hidden;
+
 }
 
 .Bot button{
