@@ -37,7 +37,8 @@ html{
   justify-content: center;
   color: #484747;
   font-family: 'Montserrat', sans-serif;
-  z-index: -1000;
+  box-shadow:inset 0px 4px 4px #696767;
+  
 
 }
 

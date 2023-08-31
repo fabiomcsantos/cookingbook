@@ -15,7 +15,7 @@ html{
 }
 
 
-.Confirm{
+.Cadastro{
   width: 58.9rem;
   height: 47.1rem;
   background-color: #d9d9d9;
@@ -42,12 +42,6 @@ html{
 
 }
 
-.icon{
-  width: 14rem;
-  height: 14rem;
-  margin: 1.6rem 0 0 0;
-}
-
 .TitleH1{
   font-size: 3.2rem;
   text-align: center;
@@ -55,12 +49,40 @@ html{
   font-weight: 400;
 }
 
-.TitleH2{
+.Usuario{
+  background: #fff;
+  color: #525252;
   font-size: 2rem;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  border: transparent;
+  margin-top: 30px;
+  width: 46rem;
+  height: 4rem;
+  border-radius: 10px;
+  margin: 0.8rem;
+  box-shadow:inset 0px 4px 4px #bababa;
 }
+  
+  ::-webkit-input-placeholder {
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 0.8rem;
+    color: #bababa;
+  }
+  
+  .Senha{
+  background: #fff;
+  color: #525252;
+  font-size: 2rem;
+  font-weight: 400;
+  border: transparent;
+  margin-top: 0.8rem;
+  width: 46rem;
+  height: 4rem;
+  border-radius: 10px;
+  box-shadow:inset 0px 4px 4px #bababa;
+  
+  }
 
 .Button{
   width: 15rem;
